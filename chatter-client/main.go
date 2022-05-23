@@ -10,7 +10,7 @@ const (
 )
 
 func main() {
-	// TODO later read from comand line args?
+	// TODO later read from command line args?
 	serverHost := "127.0.0.1"
 	serverPort := "2222"
 
@@ -23,8 +23,6 @@ func main() {
 	}
 
 	fmt.Printf("Connected to: %v:%v\n\n", serverHost, serverPort)
-
-	// _, err = connection.Write([]byte("Hello Server! Greetings."))
 
 	input := ""
 	for input != "/exit" {

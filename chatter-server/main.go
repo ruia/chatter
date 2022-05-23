@@ -40,10 +40,8 @@ func main() {
 }
 
 func processClient(connection net.Conn) {
-	fmt.Println(connection.RemoteAddr())
-	fmt.Println(connection.RemoteAddr().Network())
-	fmt.Println(connection.LocalAddr())
-	fmt.Println(connection.LocalAddr().Network())
+	// create a map with connected clients?
+	//fmt.Println(connection.RemoteAddr())
 
 	buffer := make([]byte, 1024)
 	mLen, err := connection.Read([]byte(buffer))

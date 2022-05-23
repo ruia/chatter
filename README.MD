@@ -1,3 +1,3 @@
 # Chatter
 
-### The best chat server/client ever! (/s)
+### The best GO chat server/client ever! (/s)
