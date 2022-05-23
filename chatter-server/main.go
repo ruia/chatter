@@ -12,6 +12,13 @@ const (
 	SERVER_TYPE = "tcp"
 )
 
+// possible data structure?
+type ClientData struct {
+	address    string
+	name       string
+	connection net.Conn
+}
+
 func main() {
 	fmt.Println("Welcome to Chatter Server!")
 	fmt.Println("Starting the server...")
